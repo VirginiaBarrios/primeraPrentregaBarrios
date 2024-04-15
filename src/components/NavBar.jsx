@@ -3,7 +3,7 @@ import CartWidget from './CartWidget';
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light colorCosmicLatte">
+        <nav className="navbar navbar-expand navbar-light colorCosmicLatte">
             <div className="container-fluid"> 
                 <a className="navbar-brand" href="#">Las Moras</a>
                 <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
@@ -24,7 +24,7 @@ const NavBar = () => {
                 </div>
             </div>
         </nav>
-    );
+    )
 }
 
 export default NavBar;
